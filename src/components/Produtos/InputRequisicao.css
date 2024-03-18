@@ -1,0 +1,189 @@
+input, select{
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+.chkPrioridade{
+    appearance: none;
+    width: 20px;
+    height: 20px;     
+    border: 1px solid #000000;  
+    border-radius: 50%;
+
+}
+
+.chkPrioridadeDesabilitado{
+    appearance: none;
+    width: 20px;
+    height: 20px;     
+    border: 1px solid #ffffff;  
+    border-radius: 50%;
+}
+
+:checked{
+    transition-duration: 1000ms;  
+    width: 20px;
+    height: 20px;
+}
+
+.grupoInput span{
+    font-size: 16px;
+}
+#idDepartamento{
+    width: 60px;
+}
+#departamento{
+    width: 450px;
+}
+#dataRequisicao{
+    width: 120px;
+}
+#idFuncionario{
+    width: 60px;
+}
+#NomeFuncionario{
+    width: 450px;
+}
+#cargo{
+    width: 120px;
+}
+#categoriaMotivo{
+    width: 130px;
+}
+#Motivo{
+    width: 200px;
+}
+.grupo9{
+    width: 250px;
+}
+
+.camposItens span{
+    font-size: 16px;
+}
+.grupoProduto{
+    width: 90px;
+    margin-right: 5px;
+
+}
+.grupoProduto input{
+    width: 90px;
+}
+
+.grupoProdutoDescricao{
+    width: 300px;
+    margin-right: 5px;
+}
+.grupoProdutoDescricao input{
+    width: 300px;
+}
+.grupoEstoque{
+    width: 80px;
+}
+.grupoEstoque input{
+    width: 80px;
+}
+.grupoQuantidade{
+    width: 80px;
+    margin-left: 3.5px;
+}
+.grupoQuantidade input{
+    width: 80px;
+}
+
+.BtnInserirItens{
+    background-color:#007C1B ;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 12px;
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 18px;
+}
+.BtnCancelar{
+    background-color:#CDCDCD ;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 12px;
+    transition: 0.4s;
+    color: black;
+    font-size: 18px;
+    border: none;
+    margin-right: 1rem;
+}
+
+
+.BtnInserirItens:hover {
+    background-color: #014b11;
+}
+
+#BtnInserirItens{
+    background-color:#007C1B;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#BtnInserirItens:hover {
+    background-color: #014b11;
+}
+
+#btnRemover{
+    background-color:red ;
+    width: 85%;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    margin: 4px;
+}
+
+.BtnRemover span{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+#urgente:checked{
+    border: 1px solid red;
+    background-color: red;
+    transform: scale(1.2);
+}
+
+#medio:checked{
+    border: 1px solid yellow;
+    background-color: yellow;
+    transform: scale(1.2);
+}
+
+#baixo:checked{
+    border: 1px solid green;
+    background-color: green;
+    transform: scale(1.2);
+}

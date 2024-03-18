@@ -1,0 +1,273 @@
+.gestaoProdutos{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.gestaoProdutos .tabelaItens{
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.gestaoProdutos .tabelaItens th{
+    text-align: center;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.gestaoProdutos .tabelaItens td{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.gestaoProdutos #BtnInserirItens{
+    background-color: #00D222;
+    width: 130px;
+    height: 40px;
+    border-radius: 0.3rem;
+    text-transform: none;
+    margin-bottom: 1rem;
+}
+
+.gestaoProdutos .icones{
+    display: flex;
+    border: none;
+    gap: 0.5rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+} 
+
+.header{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.header span{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.gestaoProdutos .header span{
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .gestaoProdutos .icones{
+        width: 30px;
+        margin-right: -5px;
+        gap: 0.5rem;
+        flex-direction: column;
+    } 
+    .gestaoProdutos .tabelaItens td{
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .gestaoProdutos .tabelaItens th{
+        padding-right: 0.9rem;     
+    }
+
+    .gestaoProdutos #BtnInserirItens{
+        width: 145px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #adadad;
+    padding: 20px;
+    width: 400px;
+    max-width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .modal h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .modal label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    outline-color: #90ee90;
+    font-size: 16px;
+  }
+  
+  .modal div {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  
+  .salvar{
+    padding: 10px;
+    background-color: #00D222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fechar{
+    padding: 10px;
+    background-color: #adadad;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  .salvar:hover {
+    background-color: #00bb1f;
+  }
+
+  .fechar:hover {
+    background-color: #8b8b8b;
+  }
+  
+.cadProd{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.cadProd input{
+    display: flex;
+    padding: 0.5rem;
+    max-width: 380px;
+    border-radius: 2rem;
+    font-size: 20px;
+    outline-color: #90ee90;
+    
+}
+
+.cadProd button{
+  border: none;
+  background-color: white;
+  margin-top: auto;
+  margin-left: 5px;
+}
+
+.Benchmarking{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+ font-weight: 600; 
+ background-color: #f3f3f3;
+}
+
+.Benchmarking .icones{
+  margin-top: 1rem;
+}
+
+.Benchmarking td{
+  margin-top: 1rem;
+}
+.Benchmarking tr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Benchmarking tr input{
+  margin-top: -1rem;
+  display: flex;
+  max-width: 100px;
+  border-radius: 2rem;
+  font-size: 15px;
+  outline-color: #90ee90;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.Benchmarking tr label{
+  margin-top: 1rem;
+}
+
+
+.resultadosLucro{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  background-color: #f3f3f3;
+
+}
+
+section{
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+section h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#shadow-host-companion{
+  border: none;
+}
+
+.limparSecao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+img{
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.2); 
+  transition-delay: 0.05s; 
+}
+
+.margem100{
+  border: 2px solid black;
+  width: 200px;
+}

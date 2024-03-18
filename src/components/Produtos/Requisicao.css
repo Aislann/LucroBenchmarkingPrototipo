@@ -1,0 +1,260 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: white;
+    padding-top: 3vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1vh;
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    font-size: 25px; 
+}
+
+.camposPrincipais{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    flex-wrap: wrap;
+}
+.linhasCampos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.grupoInput{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+
+}
+
+.grupo9{
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.radioPrioridade{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 5px;
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+
+.radioPrioridadeDesabilitado{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 5px;
+    border-color: #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: red;
+    color:#ffffff;
+}
+
+.grupoPrioridade{
+    display: flex;
+    padding-left: 2px;    
+}
+
+.grupoCategoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAdd{    
+    width: 30px;
+    height: 30px;
+
+}
+.btnAdd:hover{
+    cursor: pointer; 
+    scale: 1.5;    
+    transition-duration: 1000ms;    
+
+}
+
+.grupoMotivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+
+}
+
+/* ITENS */
+.camposItens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #CDCDCD;
+    padding: 10px;
+    width: 96.7%;
+    min-height: 70%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 1.6rem;
+}
+
+
+
+.linhaAdicionarItens{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;        
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    justify-content: center;
+    gap: 4px;
+}
+.grupoStatusEstoque{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 5px;      
+    position: relative; /*legenda */
+    /* display: inline-block    */
+
+}
+
+.legenda {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:  #fff2cc;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    font-size: 15px;
+    padding: 20%;
+    width: 295px;
+    text-align: center;
+    margin: 0;
+}
+
+.legenda p {
+    display: flex;
+    align-items: center; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.legenda img {
+    max-width: 20px; 
+    margin-right: 8px;
+    border: 1px solid black;
+}
+
+.grupoStatusEstoque:hover .legenda {
+    display: block;
+}
+
+.grupoStatusEstoque img{
+    display: flex;
+    width: 30px;
+}
+.grupoBtnInserirItens{
+    display: flex;
+    align-items: flex-end;  
+    margin-left: 5px; 
+    flex-direction: row-reverse;
+}
+
+
+.tabelaItens{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    width: 94.5%;
+    font-size: 16px;
+    font-weight:unset;
+    margin-top: 10px;
+} 
+
+
+.tabelaItens th{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse; 
+    text-align: left;
+    padding-left: 10px;
+}
+.tabelaItens tr, .tabelaItens td{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+
+
+#nivel{
+    margin-left: 4px;
+    border: 1px solid #CDCDCD;
+}
+
+.dadosPrincipais{
+    border: 1px solid #CDCDCD;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#itensRequisicao{
+    margin-bottom: 10px;
+}
+
+.grupoTotal {
+    margin-top: 20px;
+}
+
+.grupoTotal input{
+    border-radius: 2rem;
+    margin-left: 0.5rem;
+}
+
+.grupoTotal span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.camposItens .grupoTotal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
